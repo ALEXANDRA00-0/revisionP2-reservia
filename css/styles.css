@@ -3,13 +3,16 @@ html{
     font-family: 'Raleway', sans-serif;
 }
 
+img .logo{
+    font-size: 10px;
+}
 img{
     width: 150px;
     height: 100px;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
 }
-article, .activites {
+article, .activites,.hebergement,.droite{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -19,14 +22,12 @@ article, .activites {
     border-radius: 10px;
 }
 
-.gauche{
+.gauche, .droite{
     border:3px white solid;
     border-radius: 10px;
 }
-.hebergement, .droite{
-    display:flex;
-    
-}
+
+
 .populaires{
     flex-direction: column;
     background-color: #F2F2F2;
@@ -39,3 +40,16 @@ article, .activites {
     justify-content: space-between;
 }
 
+.menu{
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+}
+
+.bleu{
+    color:#0065fc;
+}
+
+label{
+    border-radius: 10px;
+}
