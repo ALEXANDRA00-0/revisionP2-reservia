@@ -1,34 +1,55 @@
 html{
-    font-size: 12px;
+    font-size: 10px;
     font-family: 'Raleway', sans-serif;
 }
 
-img .logo{
-    font-size: 10px;
-}
 img{
     width: 150px;
     height: 100px;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
 }
-article, .activites,.hebergement,.droite{
+article, .activites{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding:2%;
 }
 .conteneur{
     background-color: #F2F2F2;
     border-radius: 10px;
+    width: 60%;
+    margin-right: 2%;
 }
-
-.gauche, .droite{
+h2{
+    margin-left:2%;
+    font-size: bold;
+}
+.gauche{
     border:3px white solid;
     border-radius: 10px;
+    background-color: white;
+    margin-top: 3%;
 }
 
 
-.populaires{
+.hebergement{
+    display: flex;
+    width: 100%;
+}
+
+.droite{
+    display: flex;
+    background-color: white;
+    border:3px white solid;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+
+.populaires {
+    display:flex;
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 10px;
@@ -50,6 +71,30 @@ article, .activites,.hebergement,.droite{
     color:#0065fc;
 }
 
-label{
-    border-radius: 10px;
+.gris{
+    color:rgb(216, 209, 209);  
+}
+
+button,label{
+    border-radius:15px;
+    border-color: rgb(214, 204, 204);
+    background-color: white;
+}
+
+.fas fa-money-bill-wave-alt-bleu{
+    background-color:rgb(195, 216, 247);
+    border:rgb(195, 216, 247);
+}
+
+.am{
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgb(231, 223, 223);
+}
+
+.ambig>img{
+    height: 150px;
+}
+
+.prix{
+    margin-left: 5%;
 }
